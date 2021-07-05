@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .text-color{
     color: orange;
@@ -44,7 +45,7 @@ body{
 }
 .button:hover{
     color: white;
-    background-color: green;
+    background-color: #FD512D;
 }
 .top-banner{
     background-image: url();
@@ -102,4 +103,42 @@ body{
 .text-formet p{
     margin-top: 0;
     text-align: center;
+}
+.contact-us{
+    width: 50%;   
+    padding-left: 10%;
+}
+input{
+    width: 70%;
+    height: 10%;
+    border-left: 2px ridge;
+    border-image: linear-gradient(orange, ghostwhite);
+    border-image-slice: 10;
+}
+textarea{
+    width: 70%;
+    border-left: 2px ridge;
+    border-image: linear-gradient(orange, ghostwhite);
+    border-image-slice: 1;
+}
+.contact{
+    padding: 6%;
+}
+.contact-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+footer{
+    padding-top: 1%;
+    text-align: center;
+    background-color: black;
+    height: 150px;
+}
+footer p{
+    color: white;
+   
 }
